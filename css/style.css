@@ -48,7 +48,7 @@ body {
 }
 
 .header-main {
-  /* background-color: transparent; */
+  background-color: transparent;
 }
 
 .header__inner {
@@ -117,4 +117,28 @@ body {
 
 .main {
   flex-grow: 1;
+}
+
+.top {
+  color: #fff;
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+}
+
+.title {
+  padding-bottom: 40px;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.top__link {
+  background-color: #151515;
+  padding: 23px;
+  max-width: 430px;
+  width: 100%;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
 }
