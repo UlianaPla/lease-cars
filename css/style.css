@@ -81,6 +81,10 @@ body {
   font-weight: 700;
 }
 
+.menu__list-link--active {
+  color: #0066ff;
+}
+
 .footer {
   background-color: #151515;
   padding: 50px 0 32px;
@@ -432,7 +436,7 @@ body {
   padding: 4px 20px;
 }
 
-.blog__link{
+.blog__link {
   text-transform: uppercase;
   background-color: #151515;
   color: #fff;
