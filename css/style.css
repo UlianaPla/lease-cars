@@ -397,3 +397,36 @@ body {
   padding: 13px 61px;
   margin: 0 auto;
 }
+
+.blog {
+  padding-bottom: 150px;
+}
+
+.blog__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.blog__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog__item-img {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.blog__item-title {
+  flex-basis: 446px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.blog__item-link {
+  color: #fff;
+  background-color: #0066ff;
+  padding: 4px 20px;
+}
