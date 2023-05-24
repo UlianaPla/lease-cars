@@ -412,6 +412,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 70px;
 }
 
 .blog__item-img {
@@ -429,4 +430,15 @@ body {
   color: #fff;
   background-color: #0066ff;
   padding: 4px 20px;
+}
+
+.blog__link{
+  text-transform: uppercase;
+  background-color: #151515;
+  color: #fff;
+  padding: 13px;
+  width: 225px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
 }
